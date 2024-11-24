@@ -1,0 +1,346 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+background-color: black;
+    width: 100%;
+}
+
+.container {
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar {
+    margin-top: 10px;
+    width: 100%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Ensures proper alignment between left and center */
+}
+
+#logo {
+    margin-left: 20px; /* Adjust spacing from the left edge */
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.navitems {
+    display: flex;
+    gap: 90px; /* Space between nav links */
+    list-style: none;
+    align-self: center;
+    color: white;
+    
+}
+
+.navitems li {
+    text-align: center;
+    align-items: center;
+    color: white;
+}
+
+.navitems a {
+    text-decoration: none;
+    font-size: 1rem;
+    color: white; /* Adjust color for better visibility */
+}
+
+.container2{
+    margin-top: 50px;
+    float: right;
+    margin-left: 50px;
+    margin-right: 100px;
+}
+
+.maincontainer{
+   margin-left: 150px;
+    width: 100%;
+    margin-bottom: 0%;
+    
+}
+.container3{
+    text-align: center;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 150px;
+    
+}
+.maincontent{
+    height: 570px;
+    width: 100%;
+    display: flex;
+    margin-bottom: 0px;
+    padding-bottom: 0%;
+}
+.container3 h2{
+    font-size: 4rem;
+    font-style: oblique;
+    margin-top: 10px;
+    text-align: left;
+}
+.buttons{
+    width: 100%;
+    gap: 10px;
+    
+    display: flex;
+    justify-content: flex-start;
+    transition: transform 0.3s ease; /* Smooth scaling */
+    cursor: pointer;
+}
+
+/* Hover effect */
+.buttons button:hover {
+  transform: scale(1.05); /* Enlarge slightly on hover */
+}
+
+
+
+.buttons button {
+    margin-right: 10px;
+    transition: transform 0.3s ease; /* Smooth scaling */
+    cursor: pointer; /* Adds spacing between buttons */
+}
+
+.container3 span{
+       text-align: left;
+       margin-bottom: 10px;
+       display: block;
+       font-size: 1.3rem;
+       font-weight: bold;
+}
+.cont{
+    margin-bottom: 10px;
+}
+.container3 .cont{
+    margin-bottom: 20px;
+}
+
+/* ******************************************* */
+
+.container21{
+    margin-top: 5px;
+    float: left;
+    margin-left: 30px;
+    margin-right: 20px;
+}
+.container21 img{
+    width: 650px;
+    height: 500px;
+    margin-top: 50px;
+    margin-right: 30px;
+    margin-left: 0px;
+}
+.maincontainer1{
+    margin-top: 0px;
+    margin-bottom: 100px;
+    margin-left: 100px;
+    width: 100%;
+    display: flex;
+}
+.container31{
+    text-align: center;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 50px;
+
+}
+.maincontent1{
+    height: 600px;
+    width: 90%;
+    display: flex;
+}
+.container31 h3{
+    font-size: 3.7rem;
+    margin-top: 6px;
+    text-align: left;
+    font-weight: bolder;
+    font-family: 'Garamond', Times, serif;
+}
+
+
+.container31 span{
+       text-align: left;
+       margin-bottom: 6px;
+       display: block;
+       font-size: 1.7rem;
+       font-weight: bold;
+       margin-top: 0%;
+       font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.cont1{
+    margin-bottom: 100px;
+    background-color: black;
+
+}
+/* .container31 .cont{
+    margin-bottom: 20px;
+} */
+.container31 p{
+    font-size: 1.2rem;
+    margin-top: 10px;
+    text-align: left;
+    
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.cont1 i{
+    color: black;
+}
+
+.conto{
+    display: flex;
+    margin-top: 10px;
+    width: 100%;
+}
+.conto2{
+    display: flex;
+    margin-top: 5px;
+    width: 100%;
+}
+
+.conto svg{
+    margin-right: 10px;
+}
+.conto2 svg{
+    margin-right: 10px;
+}
+
+.conto h4{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+.conto2 h4{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+
+
+#cardheading{
+    font-size: 3rem;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 130px;
+    margin-bottom: 70px;
+}
+
+.cardsection{
+    display: flex;
+    margin: 0;
+    gap: 20px;
+    justify-content: center;
+    
+}
+
+.card1 , .card2 , .card3{
+    /* background-color: pink; */
+    width: 350px;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: transform 0.3s ease; /* Smooth scaling */
+    cursor: pointer;
+}
+
+/* Hover effect */
+.card1:hover {
+  transform: scale(1.05); /* Enlarge slightly on hover */
+}
+.card2:hover {
+    transform: scale(1.05); /* Enlarge slightly on hover */
+  }
+  
+.card3:hover {
+    transform: scale(1.05); /* Enlarge slightly on hover */
+  }
+    
+    
+
+.cardsection1{
+    display: flex;
+    margin: 0;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 40px;
+    
+}
+.card-img-top{
+    height: 240px;
+    margin-bottom: 0px;
+}
+.name{
+    display: flex;
+    justify-content:left;
+    margin-left: 20px;
+
+}
+.name p{
+    margin-top: 3px;
+    display: flex;
+    margin-left: 5px;
+    font-size: 1.1rem;
+    /* font-weight: bold; */
+}
+.name img{
+    height: 42px;
+    width: 42px;
+    margin-right: 10px;
+    border-radius: 50%;
+
+}
+.course {
+    justify-content: left;
+}
+.course p{
+    font-size: 1.2rem;
+    margin-top: 10px;
+    margin-left: 20px;
+    text-align: left;
+    font-weight: bolder;
+}
+
+
+.endline p{
+    margin-left: 150px;
+    font-weight: bold;
+}
+.star{
+    display: flex;
+    justify-content: left;
+    margin-bottom: 10px;
+}
+.ending {
+    margin-top: 38px;
+    display: flex;
+}
+#rating{
+    margin-left: 9px;
+    margin-right: 5px;
+    color: goldenrod;
+    font-size: 1.1rem;
+
+}
+.star svg{
+    margin-left: 10px;
+}
+
